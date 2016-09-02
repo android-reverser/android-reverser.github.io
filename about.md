@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
+title: О нас 
 permalink: /about/
 ---
 
-**Thinkspace** is just another minimalist Jekyll theme that focuses on technical writing. Designed for engineers to write their ranting and findings.
+Это попытка создать русскоязычное сообщество единомышленников, которым нравится заниматься исследованием android-приложений. Основная цель этого сообщества - повышение безопасности мобильных приложений и самой OS Android. Неважно новичок ты или матерый гуру, который способен компилировать килобайты ARM-ассемблера в голове - место найдется всем. Присоединяйся!

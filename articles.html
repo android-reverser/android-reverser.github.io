@@ -1,0 +1,16 @@
+---
+layout: page 
+title: Статьи
+---
+
+{% for article in site.articles %}
+<div class="article-title">
+	<h5><a class="post-link" href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></h5>
+</div>
+<div class="post-content" itemprop="articleBody">
+	{{ article.description }} <a href="{{ article.url | prepend: site.baseurl }}">Читать далее...</a>
+
+</div>
+
+{% endfor %}
+
