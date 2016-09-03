@@ -5,7 +5,7 @@ title: "Android"
 title2: "Reverser" # default: ""
 description: "Сообщество любителей изучать Android приложения изнутри."
 keywords: "android, reverse engineering, security, apktool, jd-gui, procyon, dalvik, smali, backsmali, apk, byte code, java"
-url: http://android-reverser.github.io
+url: http://android-reverser.ru
 baseurl: null
 
 google_analytics: UA-83539137-1
