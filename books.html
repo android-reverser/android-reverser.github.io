@@ -1,0 +1,23 @@
+---
+layout: page 
+title: Книги
+---
+
+<table style="max-width: 100%">
+{% for book in site.books %}
+<tr>
+	<td width = "260" style = "padding: 10px;"><img src = "{{ book.cover }}" width = "260" height = "343"/></td>
+	<td style="vertical-align:top; text-align:left;">
+		<strong>Название: </strong>{{ book.title }}<br>
+		<strong>Автор: </strong>{{ book.author }}<br>
+		<strong>Язык: </strong>{{ book.lang }}<br>
+		<strong>Количество страниц: </strong>{{ book.pages }}<br>
+		<strong>Год выпуска: </strong>{{ book.year }}<br>
+		<strong>ISBN: </strong>{{ book.ISBN }}<br><br>
+
+		{{ book.short_description}} <a href = "{{ book.url }}">Подробнее...</a>
+
+	</td>
+</tr>
+{% endfor %}
+</table>

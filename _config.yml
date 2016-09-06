@@ -43,6 +43,8 @@ gems:
 collections:
   articles:
     output: true
+  books:
+    output: true
 
 # navbar pages
 navbar:
