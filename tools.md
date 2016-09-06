@@ -15,7 +15,7 @@ permalink: /tools/
 * [Enjarify](https://github.com/google/enjarify) - транслятор Dalvik байткода в Java байткод. Официально гугловый.
 * [dexterity](https://github.com/rchiossi/dexterity) - достаточно старая (мб уже и мертвая) C библиотека для работы с DEX файлами. Питонячьи биндинги в комплекте.
 * [CLASSYSHARK](http://classyshark.com/) - удобный просмотрщик apk-шек и java-бинарей.
-
+* [APKiD](https://github.com/rednaga/APKiD) - позволяет определить применялись ли для apk файла технологии упаковки, обфускации. Так же определяет был ли модифицирован код.
 
 ## Деобфускаторы
 * [Simplify](https://github.com/CalebFenton/simplify) - простой и мощный деобфускатор.
