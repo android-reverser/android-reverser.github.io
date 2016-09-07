@@ -6,7 +6,7 @@ title: Книги
 <table style="max-width: 100%">
 {% for book in site.books %}
 <tr>
-	<td width = "260" style = "padding: 10px;"><img src = "{{ book.cover }}" width = "260" height = "343"/></td>
+	<td width = "260" style = "vertical-align:top; padding: 10px;"><img src = "{{ book.cover }}" width = "260" height = "343"/></td>
 	<td style="vertical-align:top; text-align:left;">
 		<strong>Название: </strong>{{ book.title }}<br>
 		<strong>Автор: </strong>{{ book.author }}<br>
