@@ -1,5 +1,6 @@
 ---
 layout: book
+date: 2016-09-06
 title: "Decompiling Android"
 author: "Godfrey Nolan"
 cover: "https://images-na.ssl-images-amazon.com/images/I/41BD71yTPLL._SX376_BO1,204,203,200_.jpg"
