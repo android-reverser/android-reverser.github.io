@@ -39,6 +39,7 @@ twitter_site: "@AndroidReverser"
 gems:
   - bourbon
   - jekyll-paginate
+  - jekyll-sitemap
 
 # collections
 collections:
