@@ -3,14 +3,14 @@ layout: page
 title: Статьи
 ---
 
-<p align="right"><a href="mailto:4authors@android-reverser.ru?subject=Название%20статьи:%20">Предложить статью</a></p><br>
-{% for article in site.articles %}
+<p align="right"><a href="mailto:4authors@android-reverser.ru?subject=Название%20 статьи:%20">Предложить статью</a></p><br>
+{% for article in site.articles reversed %}
 <div class="article-title">
 	<h5><a class="post-link" href="{{ article.url | prepend: site.baseurl }}">{{ article.title }}</a></h5>
 </div>
 <div class="post-content" itemprop="articleBody">
 	{{ article.description }} <a href="{{ article.url | prepend: site.baseurl }}">Читать далее...</a>
-
+	<br><br>
 </div>
 
 {% endfor %}
