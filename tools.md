@@ -16,6 +16,7 @@ permalink: /tools/
 * [dexterity](https://github.com/rchiossi/dexterity) - достаточно старая (мб уже и мертвая) C библиотека для работы с DEX файлами. Питонячьи биндинги в комплекте.
 * [CLASSYSHARK](http://classyshark.com/) - удобный просмотрщик apk-шек и java-бинарей.
 * [APKiD](https://github.com/rednaga/APKiD) - позволяет определить применялись ли для apk файла технологии упаковки, обфускации. Так же определяет был ли модифицирован код.
+* [JADX](https://github.com/skylot/jadx) - декомпилятор понимающий *apk*, *dex*, *jar*, *class*, *zip* и *aar* файлы. Есть консольный и GUI интерфейсы. Работает хорошо, но весьма требователен к ресурсам.
 
 ## Деобфускаторы
 * [Simplify](https://github.com/CalebFenton/simplify) - простой и мощный деобфускатор.
